@@ -51,6 +51,7 @@ a:hover {
   border-radius: 0;
   align-items: center;
   margin: 0px 10px;
+  color: azure;
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   -ms-border-radius: 0;
@@ -146,7 +147,7 @@ a:hover {
   flex-direction: row;
 }
 .-c0 {
-  background-image: url("../assects/pic3.webp");
+  background-image: url("../assects/pic4.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -165,6 +166,18 @@ a:hover {
 }
 .-f1 {
   border-right: none;
+}
+.star-rating .bi-star-fill {
+  color: #ffc107; /* Gold color */
+}
+.star-rating .bi-star {
+  color: #ddd; /* Light gray for unselected stars */
+}
+.-c1 {
+  background-image: url(../assects/pic5.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 @media (max-width: 768px) {
