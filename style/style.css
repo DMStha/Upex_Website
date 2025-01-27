@@ -1,5 +1,5 @@
 body {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 a {
   text-decoration: none;
@@ -145,6 +145,27 @@ a:hover {
   display: flex;
   flex-direction: row;
 }
+.-c0 {
+  background-image: url("../assects/pic3.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.bg-teal {
+  background-color: #008080;
+}
+.input-group-text {
+  background-color: transparent !important;
+  border-left: none;
+  padding: 5px;
+}
+.input-group-text i {
+  font-size: 1.25rem;
+  color: #6c757d;
+}
+.form-control {
+  border-right: none;
+}
 
 @media (max-width: 768px) {
   .navbar ul {
@@ -156,5 +177,8 @@ a:hover {
     width: 200px;
     padding: 20px 20px;
     margin: 20px 80px;
+  }
+  .bg-teal {
+    background-color: #20b2aa; /* Lighter teal */
   }
 }
