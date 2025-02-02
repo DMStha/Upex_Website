@@ -36,13 +36,20 @@ a:hover {
   align-items: center;
   padding: 10px;
 }
-.navbar ul {
-  text-decoration: none;
-  list-style: none;
-  display: flex;
-  justify-content: space-evenly;
-  font-size: large;
-  gap: 2rem;
+/* Navbar */
+.navbar {
+  padding: 1rem 2rem;
+}
+
+.navbar-nav .nav-link {
+  color: #333;
+  font-size: 0.9rem;
+  margin: 0 1rem;
+  transition: color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+  color: rgb(6, 121, 121);
 }
 
 .btn {
@@ -110,12 +117,26 @@ a:hover {
   font-size: 1.15rem;
   font-weight: 700;
 }
+.-a3 {
+  color: teal;
+}
+
+.contact-item {
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.contact-item i {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.contact-item span {
+  font-size: 1rem;
+}
 .-a3 h2 {
   text-align: center;
   margin: 30px 0;
-}
-.-a3 {
-  color: teal;
 }
 
 .-a4 {
