@@ -66,8 +66,9 @@ a:hover {
 }
 .btn1 {
   height: 50px;
-  background-color: rgb(247, 251, 251);
+  background-color: rgba(0, 0, 0, 0.7);
   border-radius: 0;
+  color: white;
   align-items: center;
   border: 0cap;
   margin: 0px 10px;
@@ -199,6 +200,28 @@ a:hover {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+/* Our Projects */
+
+.our-projects img {
+  width: 80%;
+  height: auto;
+  padding: 10px;
+}
+/* Contact Us  */
+
+.contact-us {
+  background-color: rgb(6, 121, 121);
+  color: white;
+  margin-top: 10px;
+}
+.contact-button .btn2 {
+  border-radius: 0px !important;
+  -webkit-border-radius: 0px !important;
+  -moz-border-radius: 0px !important;
+  -ms-border-radius: 0px !important;
+  -o-border-radius: 0px !important;
 }
 
 @media (max-width: 768px) {
