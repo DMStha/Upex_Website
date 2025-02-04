@@ -266,8 +266,9 @@ footer h5 {
     gap: 1rem;
   }
   .-a5 img {
-    height: 250px;
-    width: 200px;
+    height: 200px;
+    width: auto;
+
     padding: 20px 20px;
     margin: 20px 80px;
   }
