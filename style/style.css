@@ -21,21 +21,18 @@ a:hover {
   justify-content: space-between;
 }
 
-.Colour {
-  color: green;
-  font-weight: 600;
-}
-
 .Header {
   background: rgb(225, 223, 223);
 }
 
+/* Welcome TEXT */
 .-a0 {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px;
 }
+
 /* Navbar */
 .navbar {
   padding: 1rem 2rem;
@@ -51,7 +48,7 @@ a:hover {
 .navbar-nav .nav-link:hover {
   color: rgb(6, 121, 121);
 }
-
+/* All Buttons */
 .btn {
   height: 50px;
   background-color: teal;
@@ -64,6 +61,8 @@ a:hover {
   -ms-border-radius: 0;
   -o-border-radius: 0;
 }
+
+/* Secondary Button */
 .btn1 {
   height: 50px;
   background-color: rgba(0, 0, 0, 0.7);
@@ -118,6 +117,8 @@ a:hover {
   font-size: 1.15rem;
   font-weight: 700;
 }
+
+/* our Features */
 .-a3 {
   color: teal;
 }
@@ -145,6 +146,8 @@ a:hover {
   flex-direction: row;
   justify-content: space-between;
 }
+
+/* about Upex */
 .-a5 {
   background-image: url("../assects/pic3.jpg");
   background-size: cover;
@@ -154,26 +157,30 @@ a:hover {
   justify-content: space-around;
 }
 .-a5 img {
-  height: 550px;
-  width: 500px;
+  height: auto;
+  width: 600px;
 
   padding: 0 50px;
   margin: 20px 120px;
 }
-.-a6 {
-  padding: 50px 0px;
-  max-width: 1150px;
-}
+
 .a7 {
   display: flex;
   flex-direction: row;
 }
+
+/* Get In Touch  */
 .-c0 {
   background-image: url("../assects/pic4.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
+.card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.55);
+}
+
 .bg-teal {
   background-color: #008080;
 }
@@ -222,6 +229,35 @@ a:hover {
   -moz-border-radius: 0px !important;
   -ms-border-radius: 0px !important;
   -o-border-radius: 0px !important;
+}
+
+/* footer */
+
+footer h5 {
+  color: rgb(6, 121, 121);
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.quick-links ul {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+.quick-links ul a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: normal;
+}
+
+.quick-links ul a:hover {
+  color: rgb(6, 121, 121);
+}
+
+.get-in-touch ul {
+  list-style-type: none;
+  padding: 0;
 }
 
 @media (max-width: 768px) {
